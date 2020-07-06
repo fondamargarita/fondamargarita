@@ -4,8 +4,6 @@ function horaMenu (){
     var x = document.getElementById("demo");
     var desayuno = document.getElementById("desayuno");
     var comida = document.getElementById("comida")
-    comida.style.display = "none";
-    desayuno.style.display = "none";
     if (h >= 7 && h < 13){
         comida.style.display = "none";
         desayuno.style.display = "block";
