@@ -4,7 +4,7 @@ function Loader() {
     document.getElementById('carouselExampleControls').style.display = "block";
 }
 
-function horaMenu (){
+function horaMenu(){
     document.getElementById("loader").style.display = "none";
     
     var d  = new Date();
@@ -13,6 +13,7 @@ function horaMenu (){
     var desayuno = document.getElementById("desayuno");
     var comida = document.getElementById("comida");
     var nuevoM = minutos(h,m);
+    console.log(nuevoM);
     if (h >= 7 && h < 13 && nuevoM < 795){
         comida.style.display = "none";
         desayuno.style.display = "block";
