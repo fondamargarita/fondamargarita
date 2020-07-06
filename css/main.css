@@ -28,7 +28,6 @@
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
-    height: 100%;
   }
   
   @-webkit-keyframes animatebottom {
