@@ -8,12 +8,13 @@ function horaMenu (){
     document.getElementById("loader").style.display = "none";
     var d  = new Date();
     var h = d.getHours();
+    var m = d.getMinutes()
     var desayuno = document.getElementById("desayuno");
     var comida = document.getElementById("comida")
-    if (h >= 7 && h < 13){
+    var nuevoM = minutos(h,m)
+    if (h >= 7 && h < 13 && nuevoM < 795){
         comida.style.display = "none";
         desayuno.style.display = "block";
-        console.log('hola');
         
     } else {
         desayuno.style.display = "none";
@@ -22,5 +23,14 @@ function horaMenu (){
 
     }
     
+}
+
+function minutos(h,m){
+    if (h == 13){
+        var nuevoM = 795
+        return nuevoM
+    } else {
+        return m
+    }
 }
 
