@@ -1,15 +1,15 @@
 function Loader() {
     var myVar;
-    document.getElementById('carousel-control-next').style.zIndex = "-1";
-    document.getElementById('carousel-control-prev').style.zIndex = "-1";
+    document.getElementById('carousel-control-next').style.display = "none";
+    document.getElementById('carousel-control-prev').style.display = "none";
     myVar = setTimeout(horaMenu, 2000);
     
 }
 
 function horaMenu(){
     document.getElementById("loader").style.display = "none";
-    document.getElementById('carousel-control-next').style.zIndex = "1";
-    document.getElementById('carousel-control-prev').style.zIndex = "1";
+    document.getElementById('carousel-control-next').style.display = "block";
+    document.getElementById('carousel-control-prev').style.display = "block";
     var d  = new Date();
     var h = d.getHours();
     var m = d.getMinutes();
