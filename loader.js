@@ -7,7 +7,7 @@ function Loader() {
 }
 
 function horaMenu(){
-    document.getElementById("loader").style.visibility = "hidden";
+    document.getElementById("loader").style.display = "none";
     document.getElementById('boton1').style.visibility = "visible";
     document.getElementById('boton2').style.visibility = "visible";
     var d  = new Date();
