@@ -27,14 +27,14 @@
 .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
-  color: red;
+  font-size: 100px;
+  color:#ea6227;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
-  color: red;
+  font-size: 100px;
+  color:#ea6227;
 }
 
 
