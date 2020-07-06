@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fonda Margarita</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/fondamargarita/css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body onload="Loader()">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="text-center" id="loader">
+          <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        
+        <div id="comida" class="animate-bottom" style="display: none;">
+
+          <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/fondamargarita/menu/menudia.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja1frente.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja1atras.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja2frente.jpg" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja2atras.jpg" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja3frente.jpg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja3atras.jpg" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja4frente.jpg" alt="Eighth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/hoja4atras.jpg" alt="Nineth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/postres.jpg" alt="Tenth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <div id="desayuno" class="animate-bottom" style="display: none;">
+
+          <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/fondamargarita/desayunos/desayunos1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/desayunos/desayunos2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/desayunos/paqdesayunos.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/fondamargarita/menu/postres.jpg" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+          
+        
+        <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="/fondamargarita/loader.js"></script>
+    </body>
+</html>
