@@ -9,10 +9,10 @@ function horaMenu (){
     
     var d  = new Date();
     var h = d.getHours();
-    var m = d.getMinutes()
+    var m = d.getMinutes();
     var desayuno = document.getElementById("desayuno");
-    var comida = document.getElementById("comida")
-    var nuevoM = minutos(h,m)
+    var comida = document.getElementById("comida");
+    var nuevoM = minutos(h,m);
     if (h >= 7 && h < 13 && nuevoM < 795){
         comida.style.display = "none";
         desayuno.style.display = "block";
@@ -28,10 +28,10 @@ function horaMenu (){
 
 function minutos(h,m){
     if (h == 13){
-        var nuevoM = 795
-        return nuevoM
+        var nuevoM = 795;
+        return nuevoM;
     } else {
-        return m
+        return m;
     }
 }
 
