@@ -1,12 +1,13 @@
 function Loader() {
     var myVar;
+    document.getElementById('carouselExampleControls').style.display = "none";
     myVar = setTimeout(horaMenu, 2000);
-    document.getElementById('carouselExampleControls').style.display = "block";
+    
 }
 
 function horaMenu(){
     document.getElementById("loader").style.display = "none";
-    
+    document.getElementById('carouselExampleControls').style.display = "block";
     var d  = new Date();
     var h = d.getHours();
     var m = d.getMinutes();
