@@ -5,6 +5,7 @@ function horaMenu (){
     var x = document.getElementById("demo");
     var desayuno = document.getElementById("desayuno");
     var comida = document.getElementById("comida")
+
     if (h >= 7 && h < 13){
         comida.style.display = "none";
         desayuno.style.display = "block";
