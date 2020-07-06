@@ -1,4 +1,11 @@
+var myVar;
+
+function Loader() {
+  myVar = setTimeout(horaMenu, 3000);
+}
+
 function horaMenu (){
+    document.getElementById("loader").style.display = "none";
     var d  = new Date();
     var h = d.getHours();
     var desayuno = document.getElementById("desayuno");
@@ -16,4 +23,4 @@ function horaMenu (){
     }
     
 }
-    
+
