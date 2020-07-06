@@ -1,15 +1,15 @@
 function Loader() {
     var myVar;
-    document.getElementById('boton1').style.display = "none";
-    document.getElementById('boton2').style.display = "none";
+    document.getElementById('boton1').style.visibility = "hidden";
+    document.getElementById('boton2').style.visibility = "hidden";
     myVar = setTimeout(horaMenu, 2000);
     
 }
 
 function horaMenu(){
-    document.getElementById("loader").style.display = "none";
-    document.getElementById('boton1').style.display = "block";
-    document.getElementById('boton2').style.display = "block";
+    document.getElementById("loader").style.visibility = "hidden";
+    document.getElementById('boton1').style.visibility = "visible";
+    document.getElementById('boton2').style.visibility = "visible";
     var d  = new Date();
     var h = d.getHours();
     var m = d.getMinutes();
