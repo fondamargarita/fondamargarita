@@ -8,10 +8,6 @@
     height: 100px;
 }
 
-.img-container{
-    display: flex;
-    justify-content: center;
-}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -22,19 +18,7 @@
   border-radius: 50%;
   border: 1px solid black;
   background-image: none;
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 100px;
-  color:#ea6227;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 100px;
-  color:#ea6227;
+  color: black;
 }
 
 
@@ -45,6 +29,7 @@
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
+    height: 100%;
   }
   
   @-webkit-keyframes animatebottom {
@@ -55,4 +40,7 @@
   @keyframes animatebottom { 
     from{ bottom:-100px; opacity:0 } 
     to{ bottom:0; opacity:1 }
+
+    
+
   }
