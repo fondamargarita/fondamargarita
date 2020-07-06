@@ -1,7 +1,7 @@
 var myVar;
 
 function Loader() {
-  myVar = setTimeout(horaMenu, 5000);
+  myVar = setTimeout(horaMenu, 2000);
 }
 
 function horaMenu (){
