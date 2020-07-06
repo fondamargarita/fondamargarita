@@ -8,6 +8,7 @@ function horaMenu (){
         comida.style.display = "none";
         desayuno.style.display = "block";
         x.innerHTML = "desayuno";
+        console.log('hola');
         
     } else {
         desayuno.style.display = "none";
