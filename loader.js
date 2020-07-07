@@ -19,12 +19,12 @@ function horaMenu(){
     var nuevoM = minutos(h,m);
     console.log(nuevoM);
     if (h >= 7 && h < 13 && nuevoM < 795){
-        comida.style.display = "none";
-        desayuno.style.display = "block";
+        comida.style.visibility = "hidden";
+        desayuno.style.visibility = "visible";
         
     } else {
-        desayuno.style.display = "none";
-        comida.style.display = "block";
+        desayuno.style.visibility = "hidden";
+        comida.style.visibility = "visible";
         
 
     }
