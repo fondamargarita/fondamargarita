@@ -1,3 +1,6 @@
+html,body{
+    height: 100%;
+}
 .text-center{
     position: absolute;
     top: 50%;
