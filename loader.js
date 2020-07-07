@@ -3,7 +3,7 @@ function Loader() {
     document.getElementById('boton1').style.visibility = "hidden";
     document.getElementById('boton2').style.visibility = "hidden";
     console.log('Aquí');
-    myVar = setTimeout(horaMenu, 2000);
+    myVar = setTimeout(horaMenu, 1000);
     
 }
 
