@@ -24,7 +24,7 @@ function horaMenu(){
         comida.style.display = "none";
         desayuno.style.display = "inline";
         
-    } else if(h >= 13){
+    } else if(h >= 8){
         comida.style.display = "inline";
         desayuno.style.display = "none";
         
