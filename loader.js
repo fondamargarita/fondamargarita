@@ -19,10 +19,10 @@ function horaMenu(){
     console.log(nuevoM);
     if (h >= 7 && h < 13){
         comida.style.display = "none";
-        desayuno.style.display = "inline";
+        desayuno.style.display = "block";
         
     } else if(h >= 13){
-        comida.style.display = "inline";
+        comida.style.display = "block";
         desayuno.style.display = "none";
         
         
