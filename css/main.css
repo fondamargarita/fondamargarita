@@ -10,14 +10,13 @@
 
 
 span.carousel-control-prev-icon, span.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   outline: black;
   background-size: 100%, 100%;
   border-radius: 10%;
   border: 10px solid black;
   background-image: none;
-  color: blue;
 }
 
 
