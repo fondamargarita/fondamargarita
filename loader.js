@@ -5,7 +5,7 @@ function Loader() {
     document.getElementById('comida').style.visibility = "hidden";
     document.getElementById('desayuno').style.visibility = "hidden";
     console.log('Aquí');
-    myVar = setTimeout(horaMenu, 2000);
+    myVar = setTimeout(horaMenu, 1000);
     
 }
 
