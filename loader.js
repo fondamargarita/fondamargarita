@@ -20,11 +20,11 @@ function horaMenu(){
     var comida = document.getElementById("comida");
     var nuevoM = minutos(h,m);
     console.log(nuevoM);
-    if (h >= 7 && h < 8){
+    if (h >= 7 && h < 13){
         comida.style.display = "none";
         desayuno.style.display = "inline";
         
-    } else if(h >= 8){
+    } else if(h >= 13){
         comida.style.display = "inline";
         desayuno.style.display = "none";
         
