@@ -1,7 +1,5 @@
 function Loader() {
     var myVar;
-    document.getElementById('boton1').style.visibility = "hidden";
-    document.getElementById('boton2').style.visibility = "hidden";
     document.getElementById('comida').style.display = "none";
     document.getElementById('desayuno').style.display = "none";
     console.log('Aquí');
@@ -11,8 +9,7 @@ function Loader() {
 
 function horaMenu(){
     document.getElementById("loader").style.display = "none";
-    document.getElementById('boton1').style.visibility = "visible";
-    document.getElementById('boton2').style.visibility = "visible";
+
     var d  = new Date();
     var h = d.getHours();
     var m = d.getMinutes();
