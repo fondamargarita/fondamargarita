@@ -2,8 +2,8 @@ function Loader() {
     var myVar;
     document.getElementById('boton1').style.visibility = "hidden";
     document.getElementById('boton2').style.visibility = "hidden";
-    document.getElementById('comida').style.visibility = "hidden";
-    document.getElementById('desayuno').style.visibility = "hidden";
+    document.getElementById('comida').style.display = "none";
+    document.getElementById('desayuno').style.display = "none";
     console.log('Aquí');
     myVar = setTimeout(horaMenu, 1000);
     
@@ -21,12 +21,12 @@ function horaMenu(){
     var nuevoM = minutos(h,m);
     console.log(nuevoM);
     if (h >= 7 && h < 13 && nuevoM < 795){
-        comida.style.visibility = "hidden";
-        desayuno.style.visibility = "visible";
+        comida.style.display = "none";
+        desayuno.style.display = "inline";
         
     } else {
-        comida.style.visibility = "visible";
-        desayuno.style.visibility = "hidden";
+        comida.style.display = "inline";
+        desayuno.style.display = "none";
         
         
 
