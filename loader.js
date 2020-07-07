@@ -16,7 +16,7 @@ function horaMenu(){
     var comida = document.getElementById("comida");
     var nuevoM = minutos(h,m);
     console.log(nuevoM);
-    if (h >= 7 && h < 13 && m > 795){
+    if (h >= 7 && h < 13 && m < 795){
         comida.style.display = "none";
         desayuno.style.display = "block";
         
