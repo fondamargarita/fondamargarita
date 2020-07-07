@@ -2,6 +2,8 @@ function Loader() {
     var myVar;
     document.getElementById('boton1').style.visibility = "hidden";
     document.getElementById('boton2').style.visibility = "hidden";
+    document.getElementById('comida').style.visibility = "hidden";
+    document.getElementById('desayuno').style.visibility = "hidden";
     console.log('Aquí');
     myVar = setTimeout(horaMenu, 1000);
     
@@ -23,8 +25,9 @@ function horaMenu(){
         desayuno.style.visibility = "visible";
         
     } else {
-        desayuno.style.visibility = "hidden";
         comida.style.visibility = "visible";
+        desayuno.style.visibility = "hidden";
+        
         
 
     }
