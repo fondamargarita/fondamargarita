@@ -1,6 +1,4 @@
-html,body{
-    height: 100%;
-}
+
 .text-center{
     position: absolute;
     top: 50%;
@@ -12,15 +10,6 @@ html,body{
 }
 
 
-span.carousel-control-prev-icon, span.carousel-control-next-icon {
-  height: 20px;
-  width: 20px;
-  outline: red;
-  background-size: 100%, 100%;
-  border-radius: 10%;
-  border: 10px solid red;
-  background-image: none;
-}
 
 
 /* Add animation to "page content" */
