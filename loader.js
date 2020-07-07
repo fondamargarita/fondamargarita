@@ -5,7 +5,7 @@ function Loader() {
     document.getElementById('comida').style.display = "none";
     document.getElementById('desayuno').style.display = "none";
     console.log('Aquí');
-    myVar = setTimeout(horaMenu, 3000);
+    myVar = setTimeout(horaMenu, 1000);
     
 }
 
