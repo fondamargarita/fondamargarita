@@ -2,7 +2,7 @@ function Loader() {
     var myVar;
     document.getElementById('comida').style.display = "none";
     document.getElementById('desayuno').style.display = "none";
-    myVar = setTimeout(horaMenu, 2000);
+    myVar = setTimeout(horaMenu, 40000);
     
 }
 
