@@ -8,7 +8,7 @@ function Loader() {
 
 function horaMenu(){
     //document.getElementById("loader").style.display = "none";
-
+    console.log('aqui');
     var d  = new Date();
     var h = d.getHours();
     var m = d.getMinutes();
