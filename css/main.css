@@ -31,7 +31,6 @@ from{ bottom:-100px; opacity:0 }
 to{ bottom:0; opacity:1 }
 
 }
-
-.carousel-control-next {
+a.carousel-control-next {
     right: 10;
 }
