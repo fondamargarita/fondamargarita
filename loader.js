@@ -7,7 +7,7 @@ function Loader() {
 }
 
 function horaMenu(){
-    document.getElementById("loader").style.display = "none";
+    //document.getElementById("loader").style.display = "none";
 
     var d  = new Date();
     var h = d.getHours();
